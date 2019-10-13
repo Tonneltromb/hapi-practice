@@ -1,0 +1,9 @@
+{
+  "roots": [
+    "./spec", "./src"
+  ],
+  "transform": {
+    "^.+\\.ts?$": "ts-jest"
+  },
+  "testEnvironment": "node"
+}

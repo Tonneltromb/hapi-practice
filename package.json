@@ -1,0 +1,29 @@
+{
+  "name": "hapi-practice",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon --watch src --exec ts-node -r dotenv/config src/server.ts",
+    "build": "tsc",
+    "test": "jest --config jest.config.json --silent"
+  },
+  "author": "Yuri Matin",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "=18.4.0",
+    "mongoose": "=5.7.4",
+    "pino": "=5.13.4"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "=18.2.5",
+    "@types/jest": "=24.0.18",
+    "@types/mongoose": "=5.5.20",
+    "@types/pino": "=5.8.12",
+    "dotenv": "=8.1.0",
+    "jest": "=24.9.0",
+    "nodemon": "=1.19.3",
+    "ts-jest": "=24.1.0",
+    "ts-node": "=8.4.1",
+    "typescript": "=3.6.4"
+  }
+}
