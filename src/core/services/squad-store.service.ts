@@ -5,6 +5,7 @@ const DATA = [
 const SquadStoreService = {
   getSquad: async (squadNumber: number) => {
     return DATA[squadNumber];
-  }
+  },
+  getDutySquad: async () => ['duty1', 'duty2', 'duty3'],
 };
 export default SquadStoreService;

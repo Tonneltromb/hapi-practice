@@ -18,6 +18,7 @@ describe('getSquad', () => {
   });
 
   it('should return status code 400', async () => {
+    spyBuilder.defineSpies();
     const response = await server.inject({
       method: 'GET',
       url: '/squad'
